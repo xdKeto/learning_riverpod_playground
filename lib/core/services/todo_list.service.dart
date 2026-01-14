@@ -4,7 +4,7 @@ import 'package:riverpod_annotation/riverpod_annotation.dart';
 
 part 'todo_list.service.g.dart';
 
-@riverpod
+@Riverpod(keepAlive: true)
 TodoListMockService todoListService(Ref ref) {
   return TodoListMockService();
 }

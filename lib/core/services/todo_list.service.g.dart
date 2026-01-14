@@ -26,7 +26,7 @@ final class TodoListServiceProvider
         argument: null,
         retry: null,
         name: r'todoListServiceProvider',
-        isAutoDispose: true,
+        isAutoDispose: false,
         dependencies: null,
         $allTransitiveDependencies: null,
       );
@@ -54,4 +54,4 @@ final class TodoListServiceProvider
   }
 }
 
-String _$todoListServiceHash() => r'63f2aecb824f24fa0aa6b7b92269b8ccaaf1a2ab';
+String _$todoListServiceHash() => r'0eebee5010b3d5cc190f6b6d7a391cc73cfd1009';

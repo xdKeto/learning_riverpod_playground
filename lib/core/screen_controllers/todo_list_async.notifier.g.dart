@@ -34,7 +34,7 @@ final class TodoListAsyncNotifierProvider
 }
 
 String _$todoListAsyncNotifierHash() =>
-    r'267245fcc67a873173ee04e74ed1b80328d014e7';
+    r'696cd633ad0cc0d295277864a6fb59523cd4e418';
 
 abstract class _$TodoListAsyncNotifier extends $AsyncNotifier<TodoList> {
   FutureOr<TodoList> build();
